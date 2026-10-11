@@ -1,0 +1,7 @@
+interface:
+  display_name: "/xxd-shop-001"
+  short_description: "Create Shop 001 brand-level product key visuals."
+  default_prompt: "Use $xxd-shop-001; accept a product photo, packaging shot, product image directory, or a product name, keep the body of its bundled original brief as the sole aesthetic authority, lock the product's identity and packaging text, resolve shared size, count and text settings once, isolate every product, append exactly one delivery, product and text block per asset, keep one flat task directory, and put only supplied or verified facts on the image."
+
+policy:
+  allow_implicit_invocation: true
