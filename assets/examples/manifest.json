@@ -7,6 +7,144 @@
  "set": null,
  "items": [
   {
+   "id": "c01",
+   "section": "category",
+   "ratio": "4:5",
+   "input": "name",
+   "use": {
+    "zh": "高端主图",
+    "en": "Premium listing image"
+   },
+   "product": {
+    "zh": "迅屿 轻跑鞋",
+    "en": "XUNYU lightweight running shoes"
+   },
+   "text": "plan zh-CN",
+   "visual_review": "passed",
+   "cat": {
+    "zh": "鞋靴",
+    "en": "Footwear"
+   },
+   "hero": false,
+   "file": "c01-category-4x5-1122x1402.png",
+   "pixels": "1122x1402"
+  },
+  {
+   "id": "c02",
+   "section": "category",
+   "ratio": "1:1",
+   "input": "name",
+   "use": {
+    "zh": "高端主图",
+    "en": "Premium listing image"
+   },
+   "product": {
+    "zh": "声川 智能手表",
+    "en": "SHENGCHUAN smartwatch"
+   },
+   "text": "plan zh-CN",
+   "visual_review": "passed",
+   "cat": {
+    "zh": "3C 数码",
+    "en": "Electronics"
+   },
+   "hero": false,
+   "file": "c02-category-1x1-1254x1254.png",
+   "pixels": "1254x1254"
+  },
+  {
+   "id": "c03",
+   "section": "category",
+   "ratio": "16:9",
+   "input": "fabric-silk",
+   "use": {
+    "zh": "品牌 KV",
+    "en": "Brand key visual"
+   },
+   "product": {
+    "zh": "南枝 桑蚕丝枕套",
+    "en": "NANZHI mulberry-silk pillowcase"
+   },
+   "text": "plan zh-CN",
+   "visual_review": "passed",
+   "cat": {
+    "zh": "服饰",
+    "en": "Apparel"
+   },
+   "hero": false,
+   "file": "c03-category-16x9-1672x941.png",
+   "pixels": "1672x941"
+  },
+  {
+   "id": "c04",
+   "section": "category",
+   "ratio": "3:4",
+   "input": "candle-jar",
+   "use": {
+    "zh": "详情页首屏",
+    "en": "Detail-page hero"
+   },
+   "product": {
+    "zh": "雾屿 香薰蜡烛",
+    "en": "WUYU scented candle"
+   },
+   "text": "plan zh-CN",
+   "visual_review": "passed",
+   "cat": {
+    "zh": "香氛家居",
+    "en": "Home fragrance"
+   },
+   "hero": false,
+   "file": "c04-category-3x4-1086x1448.png",
+   "pixels": "1086x1448"
+  },
+  {
+   "id": "c05",
+   "section": "category",
+   "ratio": "1:1",
+   "input": "name",
+   "use": {
+    "zh": "高端主图",
+    "en": "Premium listing image"
+   },
+   "product": {
+    "zh": "毛球星 冻干猫粮",
+    "en": "MAOQIUXING freeze-dried cat food"
+   },
+   "text": "plan zh-CN",
+   "visual_review": "passed",
+   "cat": {
+    "zh": "宠物",
+    "en": "Pets"
+   },
+   "hero": false,
+   "file": "c05-category-1x1-1254x1254.png",
+   "pixels": "1254x1254"
+  },
+  {
+   "id": "c06",
+   "section": "category",
+   "ratio": "4:5",
+   "input": "name",
+   "use": {
+    "zh": "社媒",
+    "en": "Social post"
+   },
+   "product": {
+    "zh": "小橡果 宽口奶瓶",
+    "en": "XIAOXIANGGUO wide-neck baby bottle"
+   },
+   "text": "plan zh-CN",
+   "visual_review": "passed",
+   "cat": {
+    "zh": "母婴",
+    "en": "Baby"
+   },
+   "hero": false,
+   "file": "c06-category-4x5-1122x1402.png",
+   "pixels": "1122x1402"
+  },
+  {
    "id": "s01",
    "section": "size",
    "ratio": "1:1",
@@ -21,6 +159,10 @@
    },
    "text": "plan zh-CN",
    "visual_review": "passed",
+   "cat": {
+    "zh": "护肤",
+    "en": "Skincare"
+   },
    "hero": false,
    "file": "s01-size-1x1-1254x1254.png",
    "pixels": "1254x1254"
@@ -40,6 +182,10 @@
    },
    "text": "plan zh-CN",
    "visual_review": "passed",
+   "cat": {
+    "zh": "护肤",
+    "en": "Skincare"
+   },
    "hero": false,
    "file": "s02-size-3x4-1086x1448.png",
    "pixels": "1086x1448"
@@ -59,6 +205,10 @@
    },
    "text": "plan zh-CN",
    "visual_review": "passed",
+   "cat": {
+    "zh": "护肤",
+    "en": "Skincare"
+   },
    "hero": false,
    "file": "s03-size-9x16-941x1672.png",
    "pixels": "941x1672"
@@ -78,6 +228,10 @@
    },
    "text": "plan zh-CN",
    "visual_review": "passed",
+   "cat": {
+    "zh": "护肤",
+    "en": "Skincare"
+   },
    "hero": true,
    "file": "s04-size-16x9-1672x941.png",
    "pixels": "1672x941"
@@ -97,6 +251,10 @@
    },
    "text": "prompt zh-CN",
    "visual_review": "passed",
+   "cat": {
+    "zh": "家居",
+    "en": "Home"
+   },
    "hero": false,
    "file": "s05-category-3x4-1086x1448.png",
    "pixels": "1086x1448"
@@ -116,6 +274,10 @@
    },
    "text": "prompt zh-CN",
    "visual_review": "passed",
+   "cat": {
+    "zh": "3C 数码",
+    "en": "Electronics"
+   },
    "hero": false,
    "file": "s06-category-1x1-1254x1254.png",
    "pixels": "1254x1254"
@@ -135,6 +297,10 @@
    },
    "text": "plan zh-CN",
    "visual_review": "passed",
+   "cat": {
+    "zh": "家电",
+    "en": "Appliances"
+   },
    "hero": false,
    "file": "s07-category-16x9-1672x941.png",
    "pixels": "1672x941"
@@ -154,6 +320,10 @@
    },
    "text": "none",
    "visual_review": "passed",
+   "cat": {
+    "zh": "美妆",
+    "en": "Makeup"
+   },
    "hero": false,
    "file": "s08-special-4x5-1122x1402.png",
    "pixels": "1122x1402"
@@ -173,6 +343,10 @@
    },
    "text": "exact zh-CN",
    "visual_review": "passed",
+   "cat": {
+    "zh": "美妆",
+    "en": "Makeup"
+   },
    "hero": false,
    "file": "s09-special-4x5-1122x1402.png",
    "pixels": "1122x1402"
@@ -192,6 +366,10 @@
    },
    "text": "exact en-US",
    "visual_review": "passed",
+   "cat": {
+    "zh": "美妆",
+    "en": "Makeup"
+   },
    "hero": false,
    "file": "s10-special-4x5-1122x1402.png",
    "pixels": "1122x1402"
