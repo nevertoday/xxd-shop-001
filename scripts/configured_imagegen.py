@@ -158,12 +158,18 @@ def image_part(path: Path) -> dict:
 
 
 def request_once(base_url: str, api_key: str, model: str, prompt: str, images: list[Path], size: str | None,
-                 quality: str, base_model: str, timeout: int) -> tuple[bytes, str | None]:
+                 quality: str, base_model: str, timeout: int,
+                 labels: list[str] | None = None) -> tuple[bytes, str | None]:
     tool: dict[str, object] = {"type": "image_generation", "model": model, "quality": quality,
                                "output_format": "png", "background": "opaque"}
     if size:
         tool["size"] = size
-    content = [{"type": "input_text", "text": prompt}] + [image_part(p) for p in images]
+    content: list[dict] = [{"type": "input_text", "text": prompt}]
+    for index, path in enumerate(images):
+        # the legend line sits right before its picture, so the role never depends on order alone
+        if labels and labels[index]:
+            content.append({"type": "input_text", "text": labels[index]})
+        content.append(image_part(path))
     payload = {"model": base_model, "instructions": RELAY_INSTRUCTIONS,
                "input": [{"role": "user", "content": content}], "tools": [tool],
                "tool_choice": {"type": "image_generation"}, "stream": False}
@@ -281,6 +287,9 @@ def cmd_probe(args) -> int:
 
 
 def cmd_generate(args) -> int:
+    # Saving needs Pillow; check before the request so a missing module never wastes a generation.
+    if importlib.util.find_spec("PIL") is None:
+        raise BridgeError("pillow_missing", "environment", detail=f"install Pillow for {sys.executable}")
     try:
         prompt = args.prompt_file.read_text(encoding="utf-8").strip()
     except Exception as exc:
@@ -288,6 +297,9 @@ def cmd_generate(args) -> int:
     if not prompt:
         raise BridgeError("prompt_empty", "input")
     images = [Path(p).expanduser() for p in args.image or []]
+    labels = args.label or []
+    if labels and len(labels) != len(images):
+        raise BridgeError("labels_must_match_images", "input")
     target = None if args.size == "auto" else tuple(int(v) for v in args.size.lower().replace("×", "x").split("x", 1))
     request_size = normalize_size(args.size)
     endpoints, module = resolve_endpoints(args)
@@ -296,7 +308,7 @@ def cmd_generate(args) -> int:
     for label, base_url, api_key, model in endpoints:
         try:
             raw, revised = request_once(base_url, api_key, model, prompt, images, request_size,
-                                        args.quality, args.base_model, args.timeout)
+                                        args.quality, args.base_model, args.timeout, labels)
             info = write_png(raw, Path(args.out).expanduser(), target, args.force, strip)
             emit({"ok": True, "bitmap_written": True,
                   "line": label, "api_mode": "responses", "reference_images": len(images),
@@ -326,6 +338,9 @@ def parser() -> argparse.ArgumentParser:
             cmd.add_argument("--base-model", default=DEFAULT_BASE_MODEL)
             cmd.add_argument("--force", action="store_true")
             cmd.add_argument("--image", action="append", help="Reference image; repeatable, product image first.")
+            cmd.add_argument("--label", action="append",
+                             help="Legend line for the --image at the same position (e.g. '图 2｜本套第 1 张：只继承……'); "
+                                  "give one per --image or none.")
     return root
 
 

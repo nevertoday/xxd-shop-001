@@ -1,0 +1,200 @@
+{
+ "skill": "001",
+ "special": {
+  "zh": "文字三态：不加字、中文、英文",
+  "en": "Three text modes: none, Chinese, English"
+ },
+ "set": null,
+ "items": [
+  {
+   "id": "s01",
+   "section": "size",
+   "ratio": "1:1",
+   "input": "serum-amber",
+   "use": {
+    "zh": "高端主图",
+    "en": "Premium listing image"
+   },
+   "product": {
+    "zh": "栖白 修护精华",
+    "en": "QIBAI repair serum"
+   },
+   "text": "plan zh-CN",
+   "visual_review": "passed",
+   "hero": false,
+   "file": "s01-size-1x1-1254x1254.png",
+   "pixels": "1254x1254"
+  },
+  {
+   "id": "s02",
+   "section": "size",
+   "ratio": "3:4",
+   "input": "serum-amber",
+   "use": {
+    "zh": "详情页首屏",
+    "en": "Detail-page hero"
+   },
+   "product": {
+    "zh": "栖白 修护精华",
+    "en": "QIBAI repair serum"
+   },
+   "text": "plan zh-CN",
+   "visual_review": "passed",
+   "hero": false,
+   "file": "s02-size-3x4-1086x1448.png",
+   "pixels": "1086x1448"
+  },
+  {
+   "id": "s03",
+   "section": "size",
+   "ratio": "9:16",
+   "input": "serum-amber",
+   "use": {
+    "zh": "开屏",
+    "en": "Splash screen"
+   },
+   "product": {
+    "zh": "栖白 修护精华",
+    "en": "QIBAI repair serum"
+   },
+   "text": "plan zh-CN",
+   "visual_review": "passed",
+   "hero": false,
+   "file": "s03-size-9x16-941x1672.png",
+   "pixels": "941x1672"
+  },
+  {
+   "id": "s04",
+   "section": "size",
+   "ratio": "16:9",
+   "input": "serum-amber",
+   "use": {
+    "zh": "品牌 KV",
+    "en": "Brand key visual"
+   },
+   "product": {
+    "zh": "栖白 修护精华",
+    "en": "QIBAI repair serum"
+   },
+   "text": "plan zh-CN",
+   "visual_review": "passed",
+   "hero": true,
+   "file": "s04-size-16x9-1672x941.png",
+   "pixels": "1672x941"
+  },
+  {
+   "id": "s05",
+   "section": "category",
+   "ratio": "3:4",
+   "input": "mug-white",
+   "use": {
+    "zh": "详情页首屏",
+    "en": "Detail-page hero"
+   },
+   "product": {
+    "zh": "白窑 晨光马克杯",
+    "en": "BAIYAO morning mug"
+   },
+   "text": "prompt zh-CN",
+   "visual_review": "passed",
+   "hero": false,
+   "file": "s05-category-3x4-1086x1448.png",
+   "pixels": "1086x1448"
+  },
+  {
+   "id": "s06",
+   "section": "category",
+   "ratio": "1:1",
+   "input": "headphones-black",
+   "use": {
+    "zh": "高端主图",
+    "en": "Premium listing image"
+   },
+   "product": {
+    "zh": "声川 头戴降噪耳机",
+    "en": "SHENGCHUAN noise-cancelling headphones"
+   },
+   "text": "prompt zh-CN",
+   "visual_review": "passed",
+   "hero": false,
+   "file": "s06-category-1x1-1254x1254.png",
+   "pixels": "1254x1254"
+  },
+  {
+   "id": "s07",
+   "section": "category",
+   "ratio": "16:9",
+   "input": "name",
+   "use": {
+    "zh": "品牌 KV",
+    "en": "Brand key visual"
+   },
+   "product": {
+    "zh": "暖岛 6L 空气炸锅",
+    "en": "NUANDAO 6 L air fryer"
+   },
+   "text": "plan zh-CN",
+   "visual_review": "passed",
+   "hero": false,
+   "file": "s07-category-16x9-1672x941.png",
+   "pixels": "1672x941"
+  },
+  {
+   "id": "s08",
+   "section": "special",
+   "ratio": "4:5",
+   "input": "perfume-square",
+   "use": {
+    "zh": "社媒",
+    "en": "Social post"
+   },
+   "product": {
+    "zh": "雾屿 晨雾淡香水",
+    "en": "WUYU morning-mist eau de toilette"
+   },
+   "text": "none",
+   "visual_review": "passed",
+   "hero": false,
+   "file": "s08-special-4x5-1122x1402.png",
+   "pixels": "1122x1402"
+  },
+  {
+   "id": "s09",
+   "section": "special",
+   "ratio": "4:5",
+   "input": "perfume-square",
+   "use": {
+    "zh": "社媒",
+    "en": "Social post"
+   },
+   "product": {
+    "zh": "雾屿 晨雾淡香水",
+    "en": "WUYU morning-mist eau de toilette"
+   },
+   "text": "exact zh-CN",
+   "visual_review": "passed",
+   "hero": false,
+   "file": "s09-special-4x5-1122x1402.png",
+   "pixels": "1122x1402"
+  },
+  {
+   "id": "s10",
+   "section": "special",
+   "ratio": "4:5",
+   "input": "perfume-square",
+   "use": {
+    "zh": "社媒",
+    "en": "Social post"
+   },
+   "product": {
+    "zh": "雾屿 晨雾淡香水",
+    "en": "WUYU morning-mist eau de toilette"
+   },
+   "text": "exact en-US",
+   "visual_review": "passed",
+   "hero": false,
+   "file": "s10-special-4x5-1122x1402.png",
+   "pixels": "1122x1402"
+  }
+ ]
+}

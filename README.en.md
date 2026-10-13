@@ -10,9 +10,34 @@
 
 > Original brief: [Simplified Chinese original](references/original-prompt/zh-CN.md) · [English reading translation](references/original-prompt/en.md)
 
+<!-- xxd-samples:start -->
 ## Samples
 
-No samples yet. The commands below are usage examples, not visual evidence.
+<p align="center"><a href="assets/examples/s04-size-16x9-1672x941.png"><img src="assets/examples/preview/s04-size-16x9-1672x941.webp" width="720" alt="Brand key visual"></a><br><sub>Brand key visual · 16:9 · 1672x941<br>QIBAI repair serum · <a href="assets/examples/sources/serum-amber.jpg">source photo</a> · copy plan (Chinese)</sub></p>
+
+### One product, every placement
+
+Same product, same brief: each ratio is a new composition, not a crop.
+
+<table>
+<tr><td align="center" valign="top"><a href="assets/examples/s01-size-1x1-1254x1254.png"><img src="assets/examples/preview/s01-size-1x1-1254x1254.webp" height="200" alt="Premium listing image"></a><br><sub>Premium listing image · 1:1 · 1254x1254<br>QIBAI repair serum · <a href="assets/examples/sources/serum-amber.jpg">source photo</a> · copy plan (Chinese)</sub></td><td align="center" valign="top"><a href="assets/examples/s02-size-3x4-1086x1448.png"><img src="assets/examples/preview/s02-size-3x4-1086x1448.webp" height="200" alt="Detail-page hero"></a><br><sub>Detail-page hero · 3:4 · 1086x1448<br>QIBAI repair serum · <a href="assets/examples/sources/serum-amber.jpg">source photo</a> · copy plan (Chinese)</sub></td><td align="center" valign="top"><a href="assets/examples/s03-size-9x16-941x1672.png"><img src="assets/examples/preview/s03-size-9x16-941x1672.webp" height="200" alt="Splash screen"></a><br><sub>Splash screen · 9:16 · 941x1672<br>QIBAI repair serum · <a href="assets/examples/sources/serum-amber.jpg">source photo</a> · copy plan (Chinese)</sub></td><td align="center" valign="top"><a href="assets/examples/s04-size-16x9-1672x941.png"><img src="assets/examples/preview/s04-size-16x9-1672x941.webp" height="200" alt="Brand key visual"></a><br><sub>Brand key visual · 16:9 · 1672x941<br>QIBAI repair serum · <a href="assets/examples/sources/serum-amber.jpg">source photo</a> · copy plan (Chinese)</sub></td></tr>
+</table>
+
+### Across categories
+
+<table>
+<tr><td align="center" valign="top"><a href="assets/examples/s05-category-3x4-1086x1448.png"><img src="assets/examples/preview/s05-category-3x4-1086x1448.webp" height="220" alt="Detail-page hero"></a><br><sub>Detail-page hero · 3:4 · 1086x1448<br>BAIYAO morning mug · <a href="assets/examples/sources/mug-white.jpg">source photo</a> · brief-generated (Chinese)</sub></td><td align="center" valign="top"><a href="assets/examples/s06-category-1x1-1254x1254.png"><img src="assets/examples/preview/s06-category-1x1-1254x1254.webp" height="220" alt="Premium listing image"></a><br><sub>Premium listing image · 1:1 · 1254x1254<br>SHENGCHUAN noise-cancelling headphones · <a href="assets/examples/sources/headphones-black.jpg">source photo</a> · brief-generated (Chinese)</sub></td><td align="center" valign="top"><a href="assets/examples/s07-category-16x9-1672x941.png"><img src="assets/examples/preview/s07-category-16x9-1672x941.webp" height="220" alt="Brand key visual"></a><br><sub>Brand key visual · 16:9 · 1672x941<br>NUANDAO 6 L air fryer · name only · copy plan (Chinese)</sub></td></tr>
+</table>
+
+### Three text modes: none, Chinese, English
+
+<table>
+<tr><td align="center" valign="top"><a href="assets/examples/s08-special-4x5-1122x1402.png"><img src="assets/examples/preview/s08-special-4x5-1122x1402.webp" height="220" alt="Social post"></a><br><sub>Social post · 4:5 · 1122x1402<br>WUYU morning-mist eau de toilette · <a href="assets/examples/sources/perfume-square.jpg">source photo</a> · no added text</sub></td><td align="center" valign="top"><a href="assets/examples/s09-special-4x5-1122x1402.png"><img src="assets/examples/preview/s09-special-4x5-1122x1402.webp" height="220" alt="Social post"></a><br><sub>Social post · 4:5 · 1122x1402<br>WUYU morning-mist eau de toilette · <a href="assets/examples/sources/perfume-square.jpg">source photo</a> · exact copy (Chinese)</sub></td><td align="center" valign="top"><a href="assets/examples/s10-special-4x5-1122x1402.png"><img src="assets/examples/preview/s10-special-4x5-1122x1402.webp" height="220" alt="Social post"></a><br><sub>Social post · 4:5 · 1122x1402<br>WUYU morning-mist eau de toilette · <a href="assets/examples/sources/perfume-square.jpg">source photo</a> · exact copy (English)</sub></td></tr>
+</table>
+
+<sub>All sample products are fictional demo brands, and their prices and specs are demo values. Source photos come from Unsplash; credits and licence are in [assets/examples/README.md](assets/examples/README.md). Each image is one complete generation: not retouched, composited or upscaled, with its real pixel size shown. Images that failed visual review were regenerated and are not shown. Click for full size.</sub>
+
+<!-- xxd-samples:end -->
 
 ## What it solves
 

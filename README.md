@@ -10,9 +10,34 @@
 
 > 原始提示词：[简体中文原文](references/original-prompt/zh-CN.md) · [English](references/original-prompt/en.md)
 
+<!-- xxd-samples:start -->
 ## 样张
 
-暂无样张。下文命令只是用法示例，不是视觉证据。
+<p align="center"><a href="assets/examples/s04-size-16x9-1672x941.png"><img src="assets/examples/preview/s04-size-16x9-1672x941.webp" width="720" alt="品牌 KV"></a><br><sub>品牌 KV · 16:9 · 1672x941<br>栖白 修护精华 · <a href="assets/examples/sources/serum-amber.jpg">原图</a> · 文案方案（中文）</sub></p>
+
+### 一个商品，适配每个位置
+
+同一商品、同一份原稿，每个比例都重新构图，不是裁切。
+
+<table>
+<tr><td align="center" valign="top"><a href="assets/examples/s01-size-1x1-1254x1254.png"><img src="assets/examples/preview/s01-size-1x1-1254x1254.webp" height="200" alt="高端主图"></a><br><sub>高端主图 · 1:1 · 1254x1254<br>栖白 修护精华 · <a href="assets/examples/sources/serum-amber.jpg">原图</a> · 文案方案（中文）</sub></td><td align="center" valign="top"><a href="assets/examples/s02-size-3x4-1086x1448.png"><img src="assets/examples/preview/s02-size-3x4-1086x1448.webp" height="200" alt="详情页首屏"></a><br><sub>详情页首屏 · 3:4 · 1086x1448<br>栖白 修护精华 · <a href="assets/examples/sources/serum-amber.jpg">原图</a> · 文案方案（中文）</sub></td><td align="center" valign="top"><a href="assets/examples/s03-size-9x16-941x1672.png"><img src="assets/examples/preview/s03-size-9x16-941x1672.webp" height="200" alt="开屏"></a><br><sub>开屏 · 9:16 · 941x1672<br>栖白 修护精华 · <a href="assets/examples/sources/serum-amber.jpg">原图</a> · 文案方案（中文）</sub></td><td align="center" valign="top"><a href="assets/examples/s04-size-16x9-1672x941.png"><img src="assets/examples/preview/s04-size-16x9-1672x941.webp" height="200" alt="品牌 KV"></a><br><sub>品牌 KV · 16:9 · 1672x941<br>栖白 修护精华 · <a href="assets/examples/sources/serum-amber.jpg">原图</a> · 文案方案（中文）</sub></td></tr>
+</table>
+
+### 换一个品类也成立
+
+<table>
+<tr><td align="center" valign="top"><a href="assets/examples/s05-category-3x4-1086x1448.png"><img src="assets/examples/preview/s05-category-3x4-1086x1448.webp" height="220" alt="详情页首屏"></a><br><sub>详情页首屏 · 3:4 · 1086x1448<br>白窑 晨光马克杯 · <a href="assets/examples/sources/mug-white.jpg">原图</a> · 按原稿生成（中文）</sub></td><td align="center" valign="top"><a href="assets/examples/s06-category-1x1-1254x1254.png"><img src="assets/examples/preview/s06-category-1x1-1254x1254.webp" height="220" alt="高端主图"></a><br><sub>高端主图 · 1:1 · 1254x1254<br>声川 头戴降噪耳机 · <a href="assets/examples/sources/headphones-black.jpg">原图</a> · 按原稿生成（中文）</sub></td><td align="center" valign="top"><a href="assets/examples/s07-category-16x9-1672x941.png"><img src="assets/examples/preview/s07-category-16x9-1672x941.webp" height="220" alt="品牌 KV"></a><br><sub>品牌 KV · 16:9 · 1672x941<br>暖岛 6L 空气炸锅 · 仅商品名称 · 文案方案（中文）</sub></td></tr>
+</table>
+
+### 文字三态：不加字、中文、英文
+
+<table>
+<tr><td align="center" valign="top"><a href="assets/examples/s08-special-4x5-1122x1402.png"><img src="assets/examples/preview/s08-special-4x5-1122x1402.webp" height="220" alt="社媒"></a><br><sub>社媒 · 4:5 · 1122x1402<br>雾屿 晨雾淡香水 · <a href="assets/examples/sources/perfume-square.jpg">原图</a> · 不加字</sub></td><td align="center" valign="top"><a href="assets/examples/s09-special-4x5-1122x1402.png"><img src="assets/examples/preview/s09-special-4x5-1122x1402.webp" height="220" alt="社媒"></a><br><sub>社媒 · 4:5 · 1122x1402<br>雾屿 晨雾淡香水 · <a href="assets/examples/sources/perfume-square.jpg">原图</a> · 准确文案（中文）</sub></td><td align="center" valign="top"><a href="assets/examples/s10-special-4x5-1122x1402.png"><img src="assets/examples/preview/s10-special-4x5-1122x1402.webp" height="220" alt="社媒"></a><br><sub>社媒 · 4:5 · 1122x1402<br>雾屿 晨雾淡香水 · <a href="assets/examples/sources/perfume-square.jpg">原图</a> · 准确文案（英文）</sub></td></tr>
+</table>
+
+<sub>样张商品均为虚构的演示品牌，价格、规格等数字为演示设定；商品原图来自 Unsplash，署名与许可见 [assets/examples/README.md](assets/examples/README.md)。每张都是单次生成的完整画面，未修图、未拼接、未放大，像素照实标注；没通过目视验收的已重出，不放进来。点开看原尺寸。</sub>
+
+<!-- xxd-samples:end -->
 
 ## 适用场景与解决的问题
 
