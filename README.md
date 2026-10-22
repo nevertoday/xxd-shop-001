@@ -4,7 +4,7 @@
 
 ### 让商品从自身长出一个安静、真实、有空气感的品牌世界
 
-<strong>简体中文</strong> · <a href="README.en.md">English</a>
+<strong>简体中文</strong> · <a href="README.en.md">English</a> · <a href="README.ja.md">日本語</a> · <a href="README.ko.md">한국어</a> · <a href="README.ar.md">العربية</a>
 
 </div>
 
@@ -211,7 +211,7 @@ AI 出图偶尔会写错字，或在品牌名旁多出 ® 这类小符号。交�
 ```text
 xxd-shop-001/
 ├── SKILL.md
-├── README.md / README.en.md
+├── README.md / README.en.md / README.ja.md / README.ko.md / README.ar.md
 ├── LICENSE
 ├── agents/openai.yaml
 ├── assets/examples/
