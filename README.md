@@ -8,7 +8,19 @@
 
 </div>
 
-> 原始提示词：[简体中文原文](references/original-prompt/zh-CN.md) · [English](references/original-prompt/en.md)
+**把一张普通商品图，变成成熟品牌拍出来的电商主视觉。**
+商品本身一点不改，重新打光、找落点、搭环境，让它不再像“贴上去的”。
+
+| 一眼看懂 | |
+|---|---|
+| **交给它** | 商品图（白底图、实拍图、包装图都行），或只有一个商品名 |
+| **你拿到** | 电商主图、详情页首屏、品牌 KV、开屏、横幅，每个尺寸单独构图的 PNG |
+| **风格特点** | 商品有重量 · 真实落点和接触阴影 · 柔和定向光 · 环境色从商品长出来 · 大量留白 · 标题可有可无 |
+| **最适合** | 想要安静、高级、有品牌感，不要促销感的商品图 |
+
+> **装好后，直接这样说：**
+>
+> /xxd-shop-001 这是我的冷萃咖啡，帮我做一张电商主图和一张详情页首屏
 
 <!-- xxd-samples:start -->
 ## 样张
@@ -26,7 +38,7 @@
 
 ### 一个商品，适配每个位置
 
-同一商品、同一份原稿，每个比例都重新构图，不是裁切。
+同一商品、同一套风格，每个比例都重新构图，不是裁切。
 
 <table>
 <tr><td align="center" valign="top"><a href="assets/examples/s01-size-1x1-1254x1254.png"><img src="assets/examples/preview/s01-size-1x1-1254x1254.webp" height="200" alt="高端主图"></a><br><sub>高端主图 · 1:1 · 1254x1254<br>栖白 修护精华 · <a href="assets/examples/sources/product-qibai-serum.jpg">商品图</a> + <a href="assets/examples/sources/logo-qibai.png">Logo</a> · 文案方案（中文）</sub></td><td align="center" valign="top"><a href="assets/examples/s02-size-3x4-1086x1448.png"><img src="assets/examples/preview/s02-size-3x4-1086x1448.webp" height="200" alt="详情页首屏"></a><br><sub>详情页首屏 · 3:4 · 1086x1448<br>栖白 修护精华 · <a href="assets/examples/sources/product-qibai-serum.jpg">商品图</a> + <a href="assets/examples/sources/logo-qibai.png">Logo</a> · 文案方案（中文）</sub></td><td align="center" valign="top"><a href="assets/examples/s03-size-9x16-940x1672.png"><img src="assets/examples/preview/s03-size-9x16-940x1672.webp" height="200" alt="开屏"></a><br><sub>开屏 · 9:16 · 940x1672<br>栖白 修护精华 · <a href="assets/examples/sources/product-qibai-serum.jpg">商品图</a> + <a href="assets/examples/sources/logo-qibai.png">Logo</a> · 文案方案（中文）</sub></td><td align="center" valign="top"><a href="assets/examples/s04-size-16x9-1672x941.png"><img src="assets/examples/preview/s04-size-16x9-1672x941.webp" height="200" alt="品牌 KV"></a><br><sub>品牌 KV · 16:9 · 1672x941<br>栖白 修护精华 · <a href="assets/examples/sources/product-qibai-serum.jpg">商品图</a> + <a href="assets/examples/sources/logo-qibai.png">Logo</a> · 文案方案（中文）</sub></td></tr>
@@ -37,7 +49,7 @@
 <table>
 <tr><td align="center" valign="top"><a href="assets/examples/c01-category-4x5-1122x1402.png"><img src="assets/examples/preview/c01-category-4x5-1122x1402.webp" height="200" alt="高端主图"></a><br><sub>高端主图 · 4:5 · 1122x1402<br>迅屿 轻跑鞋 · <a href="assets/examples/sources/product-xunyu-shoe.jpg">商品图</a> + <a href="assets/examples/sources/logo-xunyu.png">Logo</a> · 文案方案（中文）</sub></td><td align="center" valign="top"><a href="assets/examples/c02-category-1x1-1254x1254.png"><img src="assets/examples/preview/c02-category-1x1-1254x1254.webp" height="200" alt="高端主图"></a><br><sub>高端主图 · 1:1 · 1254x1254<br>声川 智能手表 · <a href="assets/examples/sources/product-sc-watch.jpg">商品图</a> + <a href="assets/examples/sources/logo-shengchuan.png">Logo</a> · 文案方案（中文）</sub></td><td align="center" valign="top"><a href="assets/examples/c03-category-16x9-1672x941.png"><img src="assets/examples/preview/c03-category-16x9-1672x941.webp" height="200" alt="品牌 KV"></a><br><sub>品牌 KV · 16:9 · 1672x941<br>南枝 桑蚕丝枕套 · <a href="assets/examples/sources/fabric-silk.jpg">原图</a> + <a href="assets/examples/sources/logo-nanzhi.png">Logo</a> · 文案方案（中文）</sub></td></tr>
 <tr><td align="center" valign="top"><a href="assets/examples/c04-category-3x4-1086x1448.png"><img src="assets/examples/preview/c04-category-3x4-1086x1448.webp" height="200" alt="详情页首屏"></a><br><sub>详情页首屏 · 3:4 · 1086x1448<br>雾屿 香薰蜡烛 · <a href="assets/examples/sources/product-wuyu-candle.jpg">商品图</a> + <a href="assets/examples/sources/logo-wuyu.png">Logo</a> · 文案方案（中文）</sub></td><td align="center" valign="top"><a href="assets/examples/c05-category-1x1-1254x1254.png"><img src="assets/examples/preview/c05-category-1x1-1254x1254.webp" height="200" alt="高端主图"></a><br><sub>高端主图 · 1:1 · 1254x1254<br>毛球星 冻干猫粮 · <a href="assets/examples/sources/product-mqx-catfood.jpg">商品图</a> + <a href="assets/examples/sources/logo-maoqiuxing.png">Logo</a> · 文案方案（中文）</sub></td><td align="center" valign="top"><a href="assets/examples/c06-category-4x5-1122x1402.png"><img src="assets/examples/preview/c06-category-4x5-1122x1402.webp" height="200" alt="社媒"></a><br><sub>社媒 · 4:5 · 1122x1402<br>小橡果 宽口奶瓶 · <a href="assets/examples/sources/product-xxg-bottle.jpg">商品图</a> + <a href="assets/examples/sources/logo-xiaoxiangguo.png">Logo</a> · 文案方案（中文）</sub></td></tr>
-<tr><td align="center" valign="top"><a href="assets/examples/s05-category-3x4-1086x1448.png"><img src="assets/examples/preview/s05-category-3x4-1086x1448.webp" height="200" alt="详情页首屏"></a><br><sub>详情页首屏 · 3:4 · 1086x1448<br>白窑 晨光马克杯 · <a href="assets/examples/sources/product-baiyao-mug.jpg">商品图</a> + <a href="assets/examples/sources/logo-baiyao.png">Logo</a> · 按原稿生成（中文）</sub></td><td align="center" valign="top"><a href="assets/examples/s06-category-1x1-1254x1254.png"><img src="assets/examples/preview/s06-category-1x1-1254x1254.webp" height="200" alt="高端主图"></a><br><sub>高端主图 · 1:1 · 1254x1254<br>声川 头戴降噪耳机 · <a href="assets/examples/sources/product-sc-headphones.jpg">商品图</a> + <a href="assets/examples/sources/logo-shengchuan.png">Logo</a> · 按原稿生成（中文）</sub></td><td align="center" valign="top"><a href="assets/examples/s07-category-16x9-1672x941.png"><img src="assets/examples/preview/s07-category-16x9-1672x941.webp" height="200" alt="品牌 KV"></a><br><sub>品牌 KV · 16:9 · 1672x941<br>暖岛 6L 空气炸锅 · <a href="assets/examples/sources/product-nuandao-fryer.jpg">商品图</a> + <a href="assets/examples/sources/logo-nuandao.png">Logo</a> · 文案方案（中文）</sub></td></tr>
+<tr><td align="center" valign="top"><a href="assets/examples/s05-category-3x4-1086x1448.png"><img src="assets/examples/preview/s05-category-3x4-1086x1448.webp" height="200" alt="详情页首屏"></a><br><sub>详情页首屏 · 3:4 · 1086x1448<br>白窑 晨光马克杯 · <a href="assets/examples/sources/product-baiyao-mug.jpg">商品图</a> + <a href="assets/examples/sources/logo-baiyao.png">Logo</a> · 模型写字（中文）</sub></td><td align="center" valign="top"><a href="assets/examples/s06-category-1x1-1254x1254.png"><img src="assets/examples/preview/s06-category-1x1-1254x1254.webp" height="200" alt="高端主图"></a><br><sub>高端主图 · 1:1 · 1254x1254<br>声川 头戴降噪耳机 · <a href="assets/examples/sources/product-sc-headphones.jpg">商品图</a> + <a href="assets/examples/sources/logo-shengchuan.png">Logo</a> · 模型写字（中文）</sub></td><td align="center" valign="top"><a href="assets/examples/s07-category-16x9-1672x941.png"><img src="assets/examples/preview/s07-category-16x9-1672x941.webp" height="200" alt="品牌 KV"></a><br><sub>品牌 KV · 16:9 · 1672x941<br>暖岛 6L 空气炸锅 · <a href="assets/examples/sources/product-nuandao-fryer.jpg">商品图</a> + <a href="assets/examples/sources/logo-nuandao.png">Logo</a> · 文案方案（中文）</sub></td></tr>
 </table>
 
 ### 文字三态：不加字、中文、英文
@@ -50,43 +62,35 @@
 
 <!-- xxd-samples:end -->
 
-## 适用场景与解决的问题
+## 它解决什么
 
-很多电商图的问题不是“不够好看”，而是商品像贴上去的：悬浮、平光、廉价展台、背景抢戏、包装文字被模型改错。
+很多电商图的问题不是“不够好看”，而是商品像贴上去的：悬浮、平光、廉价展台、背景抢戏、包装上的字被 AI 改错。
 
-**Shop 001** 解决的是这件事：商品本身不变，光、落点、环境和色彩重新建立，让它像一张成熟品牌拍出来的主视觉。
+**Shop 001** 只做一件事：商品本身不变，光、落点、环境和色彩重新建立，让它像一张成熟品牌拍出来的主视觉。
 
-### 适合这些情况
+- **已有商品图，想升级成品牌级主图：** 商品造型、包装文字和 Logo 原样保留。
+- **只有商品名称或一个创意命题：** 按品类、材质、使用情境和品牌气质，建立可信的商品和场景。
+- **要安静高级，不要促销感：** 背景克制，道具只留真正能说明商品的，标题可有可无。
+- **一件商品要多个尺寸：** 主图 1:1、详情页 3:4、开屏 9:16、横幅 16:9，每个比例都重新构图，不是从一张裁出来。
 
-- **已有商品图，想升级成品牌级主图：** 白底图、实拍图、包装图都可以；商品造型、包装文字和 Logo 原样保留。
-- **只有商品名称或一个创意命题：** 按品类、材质、使用情境和品牌气质建立可信的商品形态与视觉世界。
-- **要安静高级，不要促销感：** 背景克制，道具只留真正能解释商品的，标题可有可无。
-- **一套商品要多个尺寸：** 主图 1:1、详情页 3:4、开屏 9:16、横幅 16:9，每个比例都是独立的完整构图。
+## 和相近的几款怎么选
 
-### 快速开始
-
-发一张商品图给 Agent，然后说：
-
-> 用 XXD Shop 001 做这款商品的电商主图，先推荐合适的尺寸。
-
-## 快速判断：XXD Shop 001 适合你吗？
-
-| 你关心的问题 | 这套风格给你的回答 |
+| 你想要 | 用哪款 |
 |---|---|
-| **你会得到什么** | 一张成熟品牌级的电商主图、产品海报或品牌 KV |
-| **一眼可辨的特点** | 商品有重量 · 真实落点与接触阴影 · 柔和定向光 · 环境色从商品长出 · 克制留白 · 可选的大字标题 |
-| **它如何尊重你的输入** | 商品图是最高依据：造型、比例、包装文字、Logo 不改；只重建光线、阴影、反射与环境 |
-| **它不会做什么** | 不编造价格、规格、销量、认证；不加廉价展台、无意义装饰和满屏促销标签 |
+| 安静、留白、品牌感的主图 | **001**（本款） |
+| 大促主图：价格、卖点要一眼看清 | [009 高转化主视觉](https://github.com/nevertoday/xxd-shop-009) |
+| 拿现有产品照修成“广告大片”，用光表现功能 | 011 产品视觉重构 |
 
-## 使用窍门
+## 你需要准备
 
-- **商品图越清楚越好：** 一张能看清完整外观的主图，再加细节图或多角度图更稳。
-- **说清用途：** “电商主图”“详情页首屏”“品牌 KV”会影响推荐画幅。
-- **事实自己给：** 价格、规格、产地这类信息用 `--facts` 写明，画面只会用你给的。
-- **标题可以不要：** 这套风格本来就允许无标题；想要固定文案用 `--copy`。
-- **先单张试，再批量：** 先用一件商品确认尺寸和文字，再把整个商品图目录交给它。
+- **商品图**（推荐）：能看清完整外观的一张就够，再加细节图或多角度图更稳。
+- **或者商品名称**：没有图也能做，会按品类和材质建立商品形态。
+- **用途**（推荐）：“电商主图”“详情页首屏”“品牌 KV”，它会据此推荐尺寸。
+- **价格、规格、产地**（可选）：想写上画面就告诉它，没给的不会出现。
 
-## 开始使用
+## 怎么用
+
+### 第一步：安装（只需一次）
 
 ```bash
 git clone https://github.com/nevertoday/xxd-shop-001.git
@@ -94,15 +98,33 @@ mkdir -p ~/.claude/skills
 ln -s "$(pwd)/xxd-shop-001" ~/.claude/skills/xxd-shop-001
 ```
 
-Codex 用户把同一目录链接到 `~/.codex/skills/xxd-shop-001`。安装后重启 Agent 会话。
+Codex 用户把同一个文件夹链接到 `~/.codex/skills/xxd-shop-001`。装好后重开一次 AI 助手的会话。
+
+### 第二步：用大白话说出你要什么
+
+```text
+/xxd-shop-001 这是我的冷萃咖啡，帮我做一张电商主图和一张详情页首屏
+/xxd-shop-001 我只有商品名：手工青梅酒，500ml 玻璃瓶，做一张 4:5 的品牌海报，不要文字
+/xxd-shop-001 把 ~/Desktop/商品图 里每件商品都做成 1:1 主图
+```
+
+不用记参数。没说清的事（比如尺寸、张数），它会一次问齐；第二次用时可以直接沿用上次的设置。
+
+### 第三步：它会这样做
+
+1. 看你的商品图和描述，只问还没定的事；尺寸会按用途推荐比例，并告诉你像素。
+2. 每个尺寸都重新构图，不是从一张图裁出来的。
+3. 交付前逐张检查：商品有没有被改、字有没有写错、有没有多出你没给的数字。不通过的会告诉你并重做。
+4. PNG 存进 `~/Desktop/xxd/xxd-shop-001/` 下新建的任务文件夹，把路径告诉你。
+
+<details>
+<summary><strong>进阶：命令参数写法（熟练后再看）</strong></summary>
 
 ```text
 /xxd-shop-001 ~/Desktop/商品/冷萃咖啡.png --use 电商主图 --size 1:1,3:4 --text prompt --locale zh-CN
 ```
 
-只上传商品图也可以调用，Skill 会只问还没确定的尺寸、张数和文字方式。
-
-### 参数速查
+#### 参数速查
 
 | 参数 | 作用 |
 |---|---|
@@ -110,7 +132,7 @@ Codex 用户把同一目录链接到 `~/.codex/skills/xxd-shop-001`。安装后�
 | `--use "..."` | 用途：电商主图、详情页、海报、品牌 KV、小红书、横幅…… |
 | `--size` | `auto`、`source`、`1:1`、`3:4`、`9:16`、`16:9`…或 `宽x高`，可多选 |
 | `--count N` | 每个尺寸生成几张独立构图，默认 1 |
-| `--text prompt / exact / plan / none` | 模型按原稿生成文字 / 逐字用你的文案 / 把你的文案当方案理顺层级 / 不加文字 |
+| `--text prompt / exact / plan / none` | 模型按这套风格生成文字 / 逐字用你的文案 / 把你的文案当方案理顺层级 / 不加文字 |
 | `--copy "..."` | 你的文案；默认逐字使用，配 `--text plan` 时作为文案方案 |
 | `--facts "..."` | 允许上画面的事实，例如价格、规格、产地 |
 | `--locale` | 画面文字语言，例如 `zh-CN`、`en-US`、`ja-JP` |
@@ -118,10 +140,10 @@ Codex 用户把同一目录链接到 `~/.codex/skills/xxd-shop-001`。安装后�
 | `--out` | 输出根目录 |
 | `--prefs last / edit / new / off / clear` | 沿用、修改、忽略、不保存或清除上次的交付偏好 |
 
-### 按用途复制命令
+#### 按用途复制命令
 
 ```text
-# 有商品图：主图 + 详情页两种完整构图，中文文字由模型按原稿决定
+# 有商品图：主图 + 详情页两种完整构图，中文文字由模型按这套风格决定
 /xxd-shop-001 ./商品.png --use 电商主图 --size 1:1,3:4 --text prompt --locale zh-CN
 
 # 只有商品名称：按品类与气质建立商品形态，不要文字
@@ -140,25 +162,51 @@ Codex 用户把同一目录链接到 `~/.codex/skills/xxd-shop-001`。安装后�
 完整规范：
 
 - [Skill 工作流](SKILL.md)
-- [家族运行合同](references/shop-runtime.md)
+- [运行说明](references/shop-runtime.md)
 - [原始提示词](references/original-prompt/zh-CN.md)
 
-## 原始提示词优先，而不是二次导演
+</details>
 
-`references/original-prompt/zh-CN.md` 逐字保存原始提示词，是唯一的创作与审美权威。Skill 不另做配色、不预写标题、不加美学动机；它只负责告诉图像模型“这次是哪件商品、哪张图是什么角色、哪些事实能用、要什么尺寸和文字”。
+## 常见问题
 
-## 边界与信任
+**一定要有标题吗？**
 
-- 每件商品只在自己的任务里使用，不借用其他商品、旧成品或样张里的内容、文案和构图。
-- 画面上看起来像事实的信息（价格、规格、产地、功效、销量、排名、奖项、认证、日期）只来自你提供的、商品图上清楚可读的，或本次核实过的；没有就不写。
-- 每次调用都新建任务目录；相同输入和参数也会重新生成。
-- 交付 PNG 位图，不用 SVG、HTML 或程序绘图代替。
-- 作图只走 `responses` 模式，不走按张计费的 credit 路径；开工前问一次用哪条线路。桥接脚本不打印密钥、请求头、提示词或响应正文。
+不用。这套风格本来就允许没有标题；想要固定的一句话，直接告诉它原文，它会一字不改地用。
 
-生图需要主机 Agent 的内置位图能力，或已配置的兼容通道（默认首选 GPT Image 2）。安全位图桥接需要 Python 3.11+ 与 Pillow。
+**需要什么才能用？**
+
+三样东西：① 一个支持 Skills 的 AI 助手，比如 Claude Code 或 Codex；② 一个能出图的模型，可以是助手自带的出图能力，也可以是在 Codex 里配置好的、通过 Responses 接口出图的模型供应商（默认用 GPT Image 2）；③ 电脑上装有 Python 3.11 以上和 Pillow（`pip install pillow`）。
+
+**要花钱吗？能商用吗？**
+
+Skill 本身免费下载，出图费用由你自己的模型账户承担。本项目采用 PolyForm 非商业许可：个人学习、研究、测试可以直接用；用于店铺经营、接单交付等商业用途，需要先取得作者的书面授权，见文末“许可证”。
+
+**出来的图有多大？**
+
+你可以指定比例或准确像素。实际像素以模型返回为准，不会偷偷放大冒充高清，文件名里写的就是真实像素。
+
+**图里的字会写错吗？**
+
+AI 出图偶尔会写错字，或在品牌名旁多出 ® 这类小符号。交付前会逐张放大检查，发现问题就重做那一张；本页的样张都过了这一步。
+
+**会不会乱写价格、销量？**
+
+不会。画面上像事实的内容（价格、规格、产地、销量、获奖、认证……）只来自你提供的信息或商品图上看得清的字；没给就不写，也不放“¥XX”这种占位。
+
+**能一次处理很多商品吗？**
+
+能。把商品图文件夹交给它，每张图当作一件商品，尺寸和文字设置只问一次；每件商品的信息和文案互不串用。
+
+## 它的原则
+
+- **风格不走样：** 这款背后是一份成熟的商业设计提示词（[设计原文](references/original-prompt/zh-CN.md) · [English](references/original-prompt/en.md)）。Skill 不改写它，也不另加配色和美术指导，只把你的商品、尺寸、文字和事实交给模型。
+- **商品不改款：** 有商品图时，造型、颜色、包装文字和 Logo 以图为准。
+- **只用你给的事实，** 每件商品各管各的，不借用别的商品、旧成品或样张里的内容。
+- **交付真实的 PNG 位图，** 不用 SVG 或代码绘图冒充；每次调用都新建任务文件夹。
 
 <!-- xxd-shop-tail -->
-## 项目结构
+<details>
+<summary><strong>项目结构（给开发者）</strong></summary>
 
 ```text
 xxd-shop-001/
@@ -179,6 +227,8 @@ xxd-shop-001/
         ├── zh-CN.md
         └── en.md
 ```
+
+</details>
 
 <!-- xxd-readme-ads:start -->
 ## 关于 XXD

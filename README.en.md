@@ -8,7 +8,19 @@
 
 </div>
 
-> Original brief: [Simplified Chinese original](references/original-prompt/zh-CN.md) · [English reading translation](references/original-prompt/en.md)
+**Turn an ordinary product photo into a key visual that looks shot for an established brand.**
+The product itself stays untouched; light, footing, setting and colour are rebuilt so it no longer looks pasted in.
+
+| At a glance | |
+|---|---|
+| **You give** | A product photo (white-background, real-life or packaging shot), or just a product name |
+| **You get** | Listing images, detail-page heroes, brand KVs, splash screens and banners — a fresh composition for every size |
+| **The look** | A product with weight · real footing and contact shadows · soft directional light · colours grown from the product · generous space · title optional |
+| **Best for** | Products that should feel quiet, premium and brand-led rather than promotional |
+
+> **Once installed, just say:**
+>
+> /xxd-shop-001 Here's my cold brew — make a listing image and a detail-page hero
 
 <!-- xxd-samples:start -->
 ## Samples
@@ -26,7 +38,7 @@ One tile per category; click for full size. The sections below give use, ratio, 
 
 ### One product, every placement
 
-Same product, same brief: each ratio is a new composition, not a crop.
+Same product, same style: each ratio is a new composition, not a crop.
 
 <table>
 <tr><td align="center" valign="top"><a href="assets/examples/s01-size-1x1-1254x1254.png"><img src="assets/examples/preview/s01-size-1x1-1254x1254.webp" height="200" alt="Premium listing image"></a><br><sub>Premium listing image · 1:1 · 1254x1254<br>QIBAI repair serum · <a href="assets/examples/sources/product-qibai-serum.jpg">product shot</a> + <a href="assets/examples/sources/logo-qibai.png">Logo</a> · copy plan (Chinese)</sub></td><td align="center" valign="top"><a href="assets/examples/s02-size-3x4-1086x1448.png"><img src="assets/examples/preview/s02-size-3x4-1086x1448.webp" height="200" alt="Detail-page hero"></a><br><sub>Detail-page hero · 3:4 · 1086x1448<br>QIBAI repair serum · <a href="assets/examples/sources/product-qibai-serum.jpg">product shot</a> + <a href="assets/examples/sources/logo-qibai.png">Logo</a> · copy plan (Chinese)</sub></td><td align="center" valign="top"><a href="assets/examples/s03-size-9x16-940x1672.png"><img src="assets/examples/preview/s03-size-9x16-940x1672.webp" height="200" alt="Splash screen"></a><br><sub>Splash screen · 9:16 · 940x1672<br>QIBAI repair serum · <a href="assets/examples/sources/product-qibai-serum.jpg">product shot</a> + <a href="assets/examples/sources/logo-qibai.png">Logo</a> · copy plan (Chinese)</sub></td><td align="center" valign="top"><a href="assets/examples/s04-size-16x9-1672x941.png"><img src="assets/examples/preview/s04-size-16x9-1672x941.webp" height="200" alt="Brand key visual"></a><br><sub>Brand key visual · 16:9 · 1672x941<br>QIBAI repair serum · <a href="assets/examples/sources/product-qibai-serum.jpg">product shot</a> + <a href="assets/examples/sources/logo-qibai.png">Logo</a> · copy plan (Chinese)</sub></td></tr>
@@ -37,7 +49,7 @@ Same product, same brief: each ratio is a new composition, not a crop.
 <table>
 <tr><td align="center" valign="top"><a href="assets/examples/c01-category-4x5-1122x1402.png"><img src="assets/examples/preview/c01-category-4x5-1122x1402.webp" height="200" alt="Premium listing image"></a><br><sub>Premium listing image · 4:5 · 1122x1402<br>XUNYU lightweight running shoes · <a href="assets/examples/sources/product-xunyu-shoe.jpg">product shot</a> + <a href="assets/examples/sources/logo-xunyu.png">Logo</a> · copy plan (Chinese)</sub></td><td align="center" valign="top"><a href="assets/examples/c02-category-1x1-1254x1254.png"><img src="assets/examples/preview/c02-category-1x1-1254x1254.webp" height="200" alt="Premium listing image"></a><br><sub>Premium listing image · 1:1 · 1254x1254<br>SHENGCHUAN smartwatch · <a href="assets/examples/sources/product-sc-watch.jpg">product shot</a> + <a href="assets/examples/sources/logo-shengchuan.png">Logo</a> · copy plan (Chinese)</sub></td><td align="center" valign="top"><a href="assets/examples/c03-category-16x9-1672x941.png"><img src="assets/examples/preview/c03-category-16x9-1672x941.webp" height="200" alt="Brand key visual"></a><br><sub>Brand key visual · 16:9 · 1672x941<br>NANZHI mulberry-silk pillowcase · <a href="assets/examples/sources/fabric-silk.jpg">source photo</a> + <a href="assets/examples/sources/logo-nanzhi.png">Logo</a> · copy plan (Chinese)</sub></td></tr>
 <tr><td align="center" valign="top"><a href="assets/examples/c04-category-3x4-1086x1448.png"><img src="assets/examples/preview/c04-category-3x4-1086x1448.webp" height="200" alt="Detail-page hero"></a><br><sub>Detail-page hero · 3:4 · 1086x1448<br>WUYU scented candle · <a href="assets/examples/sources/product-wuyu-candle.jpg">product shot</a> + <a href="assets/examples/sources/logo-wuyu.png">Logo</a> · copy plan (Chinese)</sub></td><td align="center" valign="top"><a href="assets/examples/c05-category-1x1-1254x1254.png"><img src="assets/examples/preview/c05-category-1x1-1254x1254.webp" height="200" alt="Premium listing image"></a><br><sub>Premium listing image · 1:1 · 1254x1254<br>MAOQIUXING freeze-dried cat food · <a href="assets/examples/sources/product-mqx-catfood.jpg">product shot</a> + <a href="assets/examples/sources/logo-maoqiuxing.png">Logo</a> · copy plan (Chinese)</sub></td><td align="center" valign="top"><a href="assets/examples/c06-category-4x5-1122x1402.png"><img src="assets/examples/preview/c06-category-4x5-1122x1402.webp" height="200" alt="Social post"></a><br><sub>Social post · 4:5 · 1122x1402<br>XIAOXIANGGUO wide-neck baby bottle · <a href="assets/examples/sources/product-xxg-bottle.jpg">product shot</a> + <a href="assets/examples/sources/logo-xiaoxiangguo.png">Logo</a> · copy plan (Chinese)</sub></td></tr>
-<tr><td align="center" valign="top"><a href="assets/examples/s05-category-3x4-1086x1448.png"><img src="assets/examples/preview/s05-category-3x4-1086x1448.webp" height="200" alt="Detail-page hero"></a><br><sub>Detail-page hero · 3:4 · 1086x1448<br>BAIYAO morning mug · <a href="assets/examples/sources/product-baiyao-mug.jpg">product shot</a> + <a href="assets/examples/sources/logo-baiyao.png">Logo</a> · brief-generated (Chinese)</sub></td><td align="center" valign="top"><a href="assets/examples/s06-category-1x1-1254x1254.png"><img src="assets/examples/preview/s06-category-1x1-1254x1254.webp" height="200" alt="Premium listing image"></a><br><sub>Premium listing image · 1:1 · 1254x1254<br>SHENGCHUAN noise-cancelling headphones · <a href="assets/examples/sources/product-sc-headphones.jpg">product shot</a> + <a href="assets/examples/sources/logo-shengchuan.png">Logo</a> · brief-generated (Chinese)</sub></td><td align="center" valign="top"><a href="assets/examples/s07-category-16x9-1672x941.png"><img src="assets/examples/preview/s07-category-16x9-1672x941.webp" height="200" alt="Brand key visual"></a><br><sub>Brand key visual · 16:9 · 1672x941<br>NUANDAO 6 L air fryer · <a href="assets/examples/sources/product-nuandao-fryer.jpg">product shot</a> + <a href="assets/examples/sources/logo-nuandao.png">Logo</a> · copy plan (Chinese)</sub></td></tr>
+<tr><td align="center" valign="top"><a href="assets/examples/s05-category-3x4-1086x1448.png"><img src="assets/examples/preview/s05-category-3x4-1086x1448.webp" height="200" alt="Detail-page hero"></a><br><sub>Detail-page hero · 3:4 · 1086x1448<br>BAIYAO morning mug · <a href="assets/examples/sources/product-baiyao-mug.jpg">product shot</a> + <a href="assets/examples/sources/logo-baiyao.png">Logo</a> · model-written text (Chinese)</sub></td><td align="center" valign="top"><a href="assets/examples/s06-category-1x1-1254x1254.png"><img src="assets/examples/preview/s06-category-1x1-1254x1254.webp" height="200" alt="Premium listing image"></a><br><sub>Premium listing image · 1:1 · 1254x1254<br>SHENGCHUAN noise-cancelling headphones · <a href="assets/examples/sources/product-sc-headphones.jpg">product shot</a> + <a href="assets/examples/sources/logo-shengchuan.png">Logo</a> · model-written text (Chinese)</sub></td><td align="center" valign="top"><a href="assets/examples/s07-category-16x9-1672x941.png"><img src="assets/examples/preview/s07-category-16x9-1672x941.webp" height="200" alt="Brand key visual"></a><br><sub>Brand key visual · 16:9 · 1672x941<br>NUANDAO 6 L air fryer · <a href="assets/examples/sources/product-nuandao-fryer.jpg">product shot</a> + <a href="assets/examples/sources/logo-nuandao.png">Logo</a> · copy plan (Chinese)</sub></td></tr>
 </table>
 
 ### Three text modes: none, Chinese, English
@@ -52,33 +64,33 @@ Same product, same brief: each ratio is a new composition, not a crop.
 
 ## What it solves
 
-Most weak e-commerce images are not "ugly" — the product looks pasted in: floating, flatly lit, on a cheap podium, upstaged by the background, with packaging text the model quietly rewrote.
+The trouble with many product images is not that they are ugly but that the product looks pasted in: floating, flat-lit, on a cheap plinth, upstaged by the background, with packaging text the AI quietly rewrote.
 
-**Shop 001** fixes exactly that. The product stays the same; light, footing, environment and colour are rebuilt so it reads like a key visual shot by a mature brand.
+**Shop 001** does one thing: the product stays exactly as it is, while light, footing, setting and colour are rebuilt so it looks like a key visual from a mature brand.
 
-### Good for
+- **You have a product photo and want a brand-grade image:** shape, packaging text and logo are kept as they are.
+- **You only have a name or a creative brief:** a believable product and world are built from its category, material, use and character.
+- **You want quiet and premium, not promotional:** a restrained background, only props that explain the product, a title only if you want one.
+- **One product, many sizes:** 1:1 listing, 3:4 detail page, 9:16 splash, 16:9 banner — every ratio is recomposed, never cropped from another.
 
-- **Upgrading an existing product photo** — white-background, real-life or packaging shots; shape, packaging text and logo stay intact.
-- **Starting from only a product name or a creative proposition** — a believable product form and world built from category, material, usage context and brand character.
-- **Quiet premium, not promotional** — restrained background, only props that explain the product, a title only when needed.
-- **One product, many placements** — 1:1 listing image, 3:4 detail page, 9:16 splash, 16:9 banner, each a separate full composition.
+## Choosing between similar styles
 
-### Quick start
-
-Send a product photo to your agent and say:
-
-> Use XXD Shop 001 to make a listing image for this product; recommend a size first.
-
-## Is XXD Shop 001 right for you?
-
-| Question | Answer |
+| You want | Use |
 |---|---|
-| **What you get** | A brand-level e-commerce main image, product poster or brand key visual |
-| **Signature traits** | A product with weight · real footing and contact shadow · soft directional light · colour grown from the product · restrained space · optional bold title |
-| **How it respects your input** | The product photo is the top authority: shape, proportions, packaging text and logo are not changed; only light, shadow, reflection and setting are rebuilt |
-| **What it will not do** | Invent prices, specs, sales, rankings or certifications; add cheap podiums, meaningless decoration or promo-sticker clutter |
+| A quiet, airy, brand-led main image | **001** (this one) |
+| A sale image where price and benefits read at a glance | [009 High-Conversion Main Visual](https://github.com/nevertoday/xxd-shop-009) |
+| Your existing photo rebuilt into an ad-grade shot, with light expressing the function | 011 Product Visual Rebuild |
 
-## Getting started
+## What to prepare
+
+- **A product photo** (recommended): one shot of the full product is enough; detail or extra angles make it steadier.
+- **Or a product name:** without a photo, the product is built from its category and material.
+- **The use** (recommended): "listing image", "detail-page hero", "brand KV" — it recommends sizes from this.
+- **Price, specs, origin** (optional): mention them if you want them on the image; nothing you leave out appears.
+
+## How to use it
+
+### Step 1: install (once)
 
 ```bash
 git clone https://github.com/nevertoday/xxd-shop-001.git
@@ -86,7 +98,27 @@ mkdir -p ~/.claude/skills
 ln -s "$(pwd)/xxd-shop-001" ~/.claude/skills/xxd-shop-001
 ```
 
-Codex users link the same folder to `~/.codex/skills/xxd-shop-001`. Restart the agent session after installing.
+Codex users link the same folder into `~/.codex/skills/xxd-shop-001`. Restart your AI assistant's session after installing.
+
+### Step 2: say what you want in plain words
+
+```text
+/xxd-shop-001 Here's my cold brew — make a listing image and a detail-page hero
+/xxd-shop-001 I only have a name: handmade green-plum wine, 500 ml glass bottle. A 4:5 brand poster, no text
+/xxd-shop-001 Make a 1:1 listing image for every product in ~/Desktop/products
+```
+
+No flags to memorise. Anything you leave open, such as sizes or how many, is asked in one go, and next time you can reuse your previous settings.
+
+### Step 3: what it does next
+
+1. Reads your product photo and description and asks only what is still open; sizes are recommended from the use, with pixel dimensions.
+2. Every size is composed afresh, never cropped from another image.
+3. Checks each image before delivery: is the product unchanged, is the text spelled right, are there numbers you never gave? Anything that fails is reported and redone.
+4. Saves PNGs to a new task folder under `~/Desktop/xxd/xxd-shop-001/` and gives you the path.
+
+<details>
+<summary><strong>Advanced: command flags (for later)</strong></summary>
 
 ```text
 /xxd-shop-001 ./cold-brew.png --use "listing image" --size 1:1,3:4 --text prompt --locale en-US
@@ -94,7 +126,7 @@ Codex users link the same folder to `~/.codex/skills/xxd-shop-001`. Restart the 
 
 Uploading just a product photo also works; the Skill asks only for size, count and text settings that are still unresolved.
 
-### Parameters
+#### Parameters
 
 | Flag | Purpose |
 |---|---|
@@ -102,7 +134,7 @@ Uploading just a product photo also works; the Skill asks only for size, count a
 | `--use "..."` | Placement: listing image, detail page, poster, brand KV, social, banner… |
 | `--size` | `auto`, `source`, `1:1`, `3:4`, `9:16`, `16:9`… or `WIDTHxHEIGHT`; several allowed |
 | `--count N` | Independent compositions per size, default 1 |
-| `--text prompt / exact / plan / none` | Model writes copy per the brief / your copy verbatim / your copy as a plan to tighten / no added text |
+| `--text prompt / exact / plan / none` | Model writes copy per the style / your copy verbatim / your copy as a plan to tighten / no added text |
 | `--copy "..."` | Your copy; verbatim by default, a copy plan with `--text plan` |
 | `--facts "..."` | Facts allowed on the image, e.g. price, size, origin |
 | `--locale` | Language of visible text, e.g. `zh-CN`, `en-US`, `ja-JP` |
@@ -110,24 +142,50 @@ Uploading just a product photo also works; the Skill asks only for size, count a
 | `--out` | Output root |
 | `--prefs last / edit / new / off / clear` | Reuse, edit, ignore, skip saving or clear the last delivery preference |
 
-Full specification: [SKILL.md](SKILL.md) · [family runtime](references/shop-runtime.md) · [original brief](references/original-prompt/zh-CN.md)
+Full specification: [SKILL.md](SKILL.md) · [runtime reference](references/shop-runtime.md) · [original brief](references/original-prompt/zh-CN.md)
 
-## Original brief first, no second art director
+</details>
 
-`references/original-prompt/zh-CN.md` keeps the original prompt verbatim and is the only creative and aesthetic authority. The Skill adds no palette, pre-written title or aesthetic theory; it only tells the image model which product this is, what each reference image is for, which facts may appear, and the requested size and text.
+## FAQ
 
-## Boundaries and trust
+**Does it need a title?**
 
-- Each product is used only in its own job; nothing is borrowed from other products, earlier results or samples.
-- Anything that reads as fact (price, spec, origin, efficacy, sales, ranking, award, certification, date) comes only from you, from legible packaging, or from facts verified during this job — otherwise it is left out.
-- Every invocation creates a fresh task folder; identical inputs are regenerated.
-- Deliverables are PNG bitmaps, never SVG, HTML or programmatic drawings.
-- Images go through the `responses` mode only, never a per-image credit path; you pick the drawing line once per task. The bridge never prints keys, headers, prompts or response bodies.
+No. This style works without one; if you want a fixed line, give the exact words and they are used unchanged.
 
-Generation needs the host agent's built-in bitmap capability or an already configured compatible route (GPT Image 2 preferred). The bridge needs Python 3.11+ and Pillow.
+**What do I need?**
+
+Three things: ① an AI assistant that supports Skills, such as Claude Code or Codex; ② an image-capable model — your assistant's built-in image generation, or a model provider configured in Codex that generates images through the Responses API (GPT Image 2 by default); ③ Python 3.11+ with Pillow (`pip install pillow`).
+
+**Does it cost anything? Can I use it commercially?**
+
+The Skill is free to download; image generation is billed to your own model account. The project uses the PolyForm Noncommercial licence: personal learning, research and testing are fine; running a shop, client work or other commercial use needs the author's written permission first — see "License" at the end.
+
+**How large are the images?**
+
+You can ask for a ratio or exact pixels. The real size is whatever the model returns — never secretly upscaled — and the file name states the true pixels.
+
+**Will the text in the image have typos?**
+
+AI images occasionally misspell words or add small marks such as ® next to a brand name. Every image is zoomed and checked before delivery, and any failure is redone; all samples on this page passed that check.
+
+**Will it invent prices or sales numbers?**
+
+No. Anything that looks like a fact — price, specs, origin, sales, awards, certifications — comes only from what you provide or text clearly readable on the product; otherwise it is left out, with no "¥XX" placeholder.
+
+**Can it handle many products at once?**
+
+Yes. Give it a folder of product photos: each image is one product, sizes and text are asked once, and no product's facts or copy leak into another's.
+
+## Principles
+
+- **The style stays true:** behind this Skill is a mature commercial design prompt ([original brief](references/original-prompt/zh-CN.md) · [English reading translation](references/original-prompt/en.md)). The Skill never rewrites it or adds its own colours or art direction; it only hands the model your product, sizes, text and facts.
+- **The product is not redesigned:** with a product photo, shape, colour, packaging text and logo follow the photo.
+- **Only your facts,** and each product stands alone — nothing borrowed from other products, earlier results or samples.
+- **Real PNG bitmaps,** never SVG or code drawings passed off as images; every run creates a new task folder.
 
 <!-- xxd-shop-tail -->
-## Project structure
+<details>
+<summary><strong>Project structure (for developers)</strong></summary>
 
 ```text
 xxd-shop-001/
@@ -148,6 +206,8 @@ xxd-shop-001/
         ├── zh-CN.md
         └── en.md
 ```
+
+</details>
 
 <!-- xxd-readme-ads:start -->
 ## About XXD
