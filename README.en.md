@@ -158,7 +158,7 @@ Three things: ① an AI assistant that supports Skills, such as Claude Code or C
 
 **Does it cost anything? Can I use it commercially?**
 
-The Skill is free to download; image generation is billed to your own model account. The project uses the PolyForm Noncommercial licence: personal learning, research and testing are fine; running a shop, client work or other commercial use needs the author's written permission first — see "License" at the end.
+The Skill is free to download; image generation is billed to your own model account. Making images for your own products, shop or brand (or your employer's, as an employee) is free for commercial use, no permission needed; reselling the Skill, turning it into a paid service, or making images for others for a fee needs the author's written permission first. See "License" at the end.
 
 **How large are the images?**
 
@@ -253,13 +253,14 @@ One annual membership unlocks three benefits together: **Knowledge Planet + the 
 
 ## License
 
-This project—including its Skill, prompts, scripts, documentation, and accompanying samples—is released under the **PolyForm Noncommercial License 1.0.0**. The complete legal text is in [LICENSE](LICENSE); the official page is <https://polyformproject.org/licenses/noncommercial/1.0.0>.
+This project—including its Skill, prompts, scripts, documentation, and accompanying samples—is released under the **PolyForm Noncommercial License 1.0.0**, with an additional own-business-use permission at the top of [LICENSE](LICENSE). The complete legal text is in [LICENSE](LICENSE); the official page is <https://polyformproject.org/licenses/noncommercial/1.0.0>.
 
 In plain language:
 
+- **Free for sellers' own use:** making images for your own products, shop or brand—or for your employer's, as an employee—is allowed, and so is adapting the Skill for it. The images may be used commercially (listings, ads, packaging) without asking.
 - You may use it for personal study, research, experiments, testing, hobbies, and private entertainment. Charities, educational institutions, public research/safety/health organisations, environmental-protection organisations, and government institutions may also use it.
-- For **noncommercial purposes**, you may use, copy, modify, create derivative works, and share the project. When sharing, include this license (or the link above) and every `Required Notice:` line supplied by the author.
-- Commercial products or services, paid delivery, selling access or licenses, and uses with an anticipated commercial application are not allowed. Obtain separate written permission from the copyright holder for commercial use.
+- For **noncommercial purposes**, you may copy, modify, create derivative works, and share the project. When sharing, include this license (with the additional permission) and every `Required Notice:` line in it.
+- **These need a separate written commercial license:** reselling or distributing the Skill, its prompts or adaptations for a fee; turning it into a paid tool, hosted service or API; making images for other people for a fee (studios, agencies, store operators, freelance work); using it as material for paid courses or training. Contact [@xiaoxiaodong01](https://x.com/xiaoxiaodong01) or use the QR code above.
 - The license grants only the stated copyright and limited patent rights. It grants no trademark, brand, or other unstated rights, and you may not sublicense or transfer your license.
 - If you receive written notice of a violation, you have 32 days to come into full compliance and take practical corrective steps; otherwise the licenses end. A written patent-infringement claim also ends the patent license.
 - The project is provided **as is**, without warranties, and you accept the risks and any resulting liability to the extent permitted by law.
