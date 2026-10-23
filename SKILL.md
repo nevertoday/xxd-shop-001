@@ -39,4 +39,5 @@ description: "Create XXD Shop 001 brand-level product key visuals (高级商业�
 - `references/runtime-preferences.md`：安全的交付偏好沿用
 - `references/sample-workflow.md`：仅用于维护样张，不是运行前提
 - `scripts/configured_imagegen.py`：已配置通道的脱敏位图桥接
+- `scripts/clean_marks.py`：验收时抹掉品牌名旁多出来的 ®、™
 - `scripts/shop_preferences.py`：读写家族共用的交付偏好
