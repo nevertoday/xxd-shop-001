@@ -8,6 +8,7 @@ with matching grain. No model is called and nothing outside the box changes.
 
   look  PNG --box x,y,w,h [--out crop.png]   enlarged crop with a coordinate grid, to find
                                              and check the mark (written to a temp file)
+        [--plain]                            no grid or frame: for reading text letter by letter
   erase PNG --box x,y,w,h [--box ...]        refill each box in place; the untouched file is
                                              kept in a temp folder and its path printed
 
@@ -73,7 +74,7 @@ def cmd_look(args) -> int:
     from PIL import Image, ImageDraw
     image = load(args.png).convert("RGB")
     x, y, w, h = args.box
-    pad = max(max(w, h) // 2, 16)
+    pad = 16 if args.plain else max(max(w, h) // 2, 16)
     left, top = max(0, x - pad), max(0, y - pad)
     right, bottom = min(image.width, x + w + pad), min(image.height, y + h + pad)
     if right <= left or bottom <= top:
@@ -82,17 +83,18 @@ def cmd_look(args) -> int:
     zoom = max(1, min(12, 900 // max(right - left, bottom - top)))
     crop = image.crop((left, top, right, bottom)).resize(((right - left) * zoom, (bottom - top) * zoom), Image.Resampling.NEAREST)
     draw = ImageDraw.Draw(crop)
-    for gx in range((left // GRID + 1) * GRID, right, GRID):
+    for gx in [] if args.plain else range((left // GRID + 1) * GRID, right, GRID):
         major = gx % (GRID * 5) == 0
         draw.line([((gx - left) * zoom, 0), ((gx - left) * zoom, crop.height)], fill=(0, 160, 255) if major else (150, 210, 255))
         if major:
             draw.text(((gx - left) * zoom + 2, 2), str(gx), fill=(0, 90, 200))
-    for gy in range((top // GRID + 1) * GRID, bottom, GRID):
+    for gy in [] if args.plain else range((top // GRID + 1) * GRID, bottom, GRID):
         major = gy % (GRID * 5) == 0
         draw.line([(0, (gy - top) * zoom), (crop.width, (gy - top) * zoom)], fill=(0, 160, 255) if major else (150, 210, 255))
         if major:
             draw.text((2, (gy - top) * zoom + 2), str(gy), fill=(0, 90, 200))
-    draw.rectangle([(x - left) * zoom, (y - top) * zoom, (x + w - left) * zoom - 1, (y + h - top) * zoom - 1], outline=(255, 0, 80))
+    if not args.plain:
+        draw.rectangle([(x - left) * zoom, (y - top) * zoom, (x + w - left) * zoom - 1, (y + h - top) * zoom - 1], outline=(255, 0, 80))
     out = args.out or TEMP / f"look-{args.png.stem}-{x}-{y}-{w}-{h}.png"
     out.parent.mkdir(parents=True, exist_ok=True)
     crop.save(out)
@@ -217,6 +219,7 @@ def main() -> int:
     look.add_argument("png", type=Path)
     look.add_argument("--box", type=parse_box, required=True)
     look.add_argument("--out", type=Path)
+    look.add_argument("--plain", action="store_true", help="no grid or frame (for reading text)")
     erase = sub.add_parser("erase", help="refill boxes in place from their surroundings")
     erase.add_argument("png", type=Path)
     erase.add_argument("--box", type=parse_box, action="append", required=True)
